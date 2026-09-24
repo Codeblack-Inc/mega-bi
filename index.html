@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#17152B" />
+    <meta name="description" content="mega는 화면을 만드는 mega-ui와 편집 가능한 장표를 만드는 mega-ppt를 함께 소개하는 Codeblack-Inc의 오픈소스 브랜드입니다." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="mega — 함께 만드는 오픈소스 도구" />
+    <meta property="og:description" content="화면부터 발표 자료까지. mega-ui와 mega-ppt를 만나보세요." />
+    <meta property="og:image" content="https://codeblack-inc.github.io/mega-bi/assets/preview.png" />
+    <link rel="canonical" href="https://codeblack-inc.github.io/mega-bi/" />
+    <link rel="icon" href="assets/png/favicon.ico" sizes="any" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>mega — 함께 만드는 오픈소스 도구</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header">
+        <div class="shell header-inner">
+          <a class="brand" href="#top" aria-label="mega 첫 화면">
+            <img src="assets/svg/mega-logo-inverse.svg" alt="mega" width="154" height="43" />
+          </a>
+          <nav aria-label="주 메뉴">
+            <a href="#projects">프로젝트</a>
+            <a href="#brand-guide">BI 가이드</a>
+            <a class="nav-github" href="https://github.com/Codeblack-Inc" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          </nav>
+        </div>
+    </header>
+
+    <main id="main">
+      <div class="dark-intro">
+        <section class="hero shell" id="top" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">CODEBLACK OPEN SOURCE</p>
+            <h1 id="hero-title">화면부터 발표 자료까지.<br /><span>만드는 도구를<br />함께 키웁니다.</span></h1>
+            <p class="hero-description">mega는 Codeblack-Inc의 오픈소스 제품군입니다. 같은 생각에서 출발한 서로 다른 도구가, 만드는 일을 더 쉽고 넓게 이어 줍니다.</p>
+            <a class="button button-light" href="#projects">프로젝트 살펴보기 <span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <img src="assets/svg/mega-symbol.svg" alt="" width="480" height="480" />
+            <span class="hero-art-label">one shared idea<br />many ways to make</span>
+          </div>
+        </section>
+      </div>
+
+    <section class="projects shell" id="projects" aria-labelledby="projects-title">
+      <div class="section-intro">
+        <p class="eyebrow">THE PROJECTS</p>
+        <h2 id="projects-title">필요한 도구에서 시작하세요.</h2>
+        <p>두 프로젝트는 같은 브랜드를 공유하지만, 만드는 과정에서 맡는 역할은 다릅니다.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card ui-card" aria-labelledby="ui-title">
+          <div class="card-copy">
+            <div class="card-topline"><span>01 / INTERFACE</span><span>React · TypeScript</span></div>
+            <img class="product-logo" src="assets/svg/mega-ui.svg" alt="mega-ui" width="260" height="59" />
+            <h3 id="ui-title">같은 언어로 화면을 만듭니다.</h3>
+            <p>레이아웃과 기본 컨트롤부터 데이터 그리드, AI 채팅까지. 디자인 토큰 위에서 컴포넌트를 조합하는 React UI 라이브러리입니다.</p>
+            <div class="card-links">
+              <a class="button button-dark" href="https://mega-ui-two.vercel.app/">컴포넌트 둘러보기 <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="https://github.com/Codeblack-Inc/mega-ui">GitHub 코드 <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="ui-visual" aria-hidden="true">
+            <div class="mock-browser">
+              <div class="mock-toolbar"><span></span><span></span><span></span><b>mega-ui / components</b></div>
+              <div class="mock-app">
+                <div class="mock-sidebar"><i></i><i></i><i></i><i></i></div>
+                <div class="mock-content">
+                  <div class="mock-heading"></div>
+                  <div class="mock-subheading"></div>
+                  <div class="mock-controls"><span></span><span></span><span></span></div>
+                  <div class="mock-panels"><i></i><i></i></div>
+                </div>
+              </div>
+            </div>
+            <span class="visual-caption">조합 가능한 인터페이스</span>
+          </div>
+        </article>
+
+        <article class="project-card ppt-card" aria-labelledby="ppt-title">
+          <div class="card-copy">
+            <div class="card-topline"><span>02 / PRESENTATION</span><span>Claude Code · Codex</span></div>
+            <img class="product-logo" src="assets/svg/mega-ppt.svg" alt="mega-ppt" width="294" height="59" />
+            <h3 id="ppt-title">생각을 편집 가능한 장표로.</h3>
+            <p>AI가 스토리라인을 설계하고, 표·차트·카드 등의 패널을 조합합니다. 완성된 PowerPoint는 열어서 바로 수정할 수 있습니다.</p>
+            <div class="card-links">
+              <a class="button button-dark" href="https://codeblack-inc.github.io/mega-ppt/">장표 갤러리 보기 <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="https://github.com/Codeblack-Inc/mega-ppt">GitHub 코드 <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="ppt-visual" aria-hidden="true">
+            <div class="slide-back"></div>
+            <div class="slide-front">
+              <small>IDEA → STORY → SLIDES</small>
+              <strong>한 장의 결론,<br />그 결론을 증명하는 구성.</strong>
+              <div class="slide-panels"><i></i><i></i><i></i></div>
+              <span>EDITABLE .PPTX</span>
+            </div>
+            <span class="visual-caption">바로 수정할 수 있는 장표</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="brand-guide" id="brand-guide" aria-labelledby="guide-title">
+      <div class="shell guide-inner">
+        <img src="assets/svg/mega-symbol.svg" alt="" width="76" height="76" />
+        <div>
+          <p class="eyebrow">THE COMMON LANGUAGE</p>
+          <h2 id="guide-title">하나의 이름, 같은 기준.</h2>
+          <p>로고와 색상, 서체 사용법을 BI 가이드에 정리했습니다. 필요한 SVG·PNG 파일도 함께 받을 수 있습니다.</p>
+        </div>
+        <div class="guide-actions">
+          <a class="button button-dark" href="guide/mega-brand-guidelines.pdf">BI 가이드 보기 <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="https://github.com/Codeblack-Inc/mega-bi">브랜드 에셋 보기 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <a href="#top" aria-label="맨 위로"><img src="assets/svg/mega-logo-inverse.svg" alt="mega" width="120" height="34" /></a>
+        <p>Codeblack-Inc의 오픈소스 프로젝트</p>
+        <a href="https://github.com/Codeblack-Inc">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
