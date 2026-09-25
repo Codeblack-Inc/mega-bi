@@ -4,7 +4,7 @@
 
 **mega**는 Codeblack-Inc의 오픈소스 제품을 묶는 브랜드입니다. 네 개의 둥근 조각이 열린 중심을 공유하는 심벌로, 서로 다른 프로젝트가 함께 확장되는 모습을 표현합니다. 이 저장소에는 `mega`, `mega-ui`, `mega-ppt`, `mega-diagram`, `mega-hwp`의 로고와 사용 가이드를 모았습니다.
 
-**[mega 브랜드 사이트 보기 →](https://codeblack-inc.github.io/mega-bi/)** · [mega-ui](https://mega-ui-two.vercel.app/) · [mega-ppt](https://codeblack-inc.github.io/mega-ppt/) · [mega-diagram](https://github.com/Codeblack-Inc/mega-diagram) · [mega-hwp](https://github.com/Codeblack-Inc/mega-hwp)
+**[mega 브랜드 사이트 보기 →](https://codeblack-inc.github.io/mega-bi/)** · [mega-ui](https://mega-ui-two.vercel.app/) · [mega-ppt](https://codeblack-inc.github.io/mega-ppt/) · [mega-diagram](https://github.com/Codeblack-Inc/mega-diagram) · [mega-hwp](https://codeblack-inc.github.io/mega-hwp/)
 
 ## 바로 사용하기
 
