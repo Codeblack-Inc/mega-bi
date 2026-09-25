@@ -52,6 +52,10 @@ img { display: block; max-width: 100%; }
 .project-card { min-width: 0; min-height: 698px; display: flex; flex-direction: column; overflow: hidden; border: 1px solid #e8e5ef; border-radius: 28px; }
 .ui-card { background: #f6f4ff; }
 .ppt-card { background: #fff5f1; border-color: #f5e4de; }
+.diagram-card { grid-column: 1 / -1; min-height: 0; flex-direction: row; background: #f3f7fe; border-color: #dfe8f8; }
+.diagram-card .card-copy { flex: 1 1 0; }
+.diagram-visual { position: relative; flex: 1 1 0; display: grid; place-items: center; padding: 32px 36px 44px; background: #e4edfb; }
+.diagram-visual svg { width: 100%; max-width: 480px; height: auto; font: 600 13px var(--font-body); fill: #17152b; }
 .card-copy { padding: 33px 36px 25px; }
 .card-topline { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 31px; color: var(--mega-muted); font: 700 11px/1.4 var(--font-display); letter-spacing: .09em; }
 .product-logo { height: 57px; width: auto; max-width: min(100%, 300px); }
@@ -135,6 +139,7 @@ img { display: block; max-width: 100%; }
   .projects { padding-block: 80px 90px; }
   .project-grid { grid-template-columns: 1fr; gap: 20px; }
   .project-card { min-height: 0; }
+  .diagram-card { flex-direction: column; }
   .card-copy > p { min-height: 0; }
   .ui-visual, .ppt-visual { min-height: 255px; }
   .guide-inner { grid-template-columns: 58px 1fr; gap: 13px; }

@@ -2,10 +2,12 @@
   --mega-ink: #17152B;
   --mega-violet: #6043D5;
   --mega-coral: #F37055;
+  --mega-blue: #2F6FDB;
   --mega-paper: #F6F5FA;
   --mega-lilac: #E8E3FA;
   --mega-muted: #68657B;
   --mega-white: #FFFFFF;
   --mega-ui: var(--mega-violet);
   --mega-ppt: var(--mega-coral);
+  --mega-diagram: var(--mega-blue);
 }
