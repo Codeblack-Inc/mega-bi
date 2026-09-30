@@ -2,9 +2,9 @@
 
 ![mega 브랜드 미리보기](assets/preview.png)
 
-**mega**는 Codeblack-Inc의 오픈소스 제품을 묶는 브랜드입니다. 네 개의 둥근 조각이 열린 중심을 공유하는 심벌로, 서로 다른 프로젝트가 함께 확장되는 모습을 표현합니다. 이 저장소에는 `mega`, `mega-ui`, `mega-ppt`, `mega-diagram`, `mega-hwp`의 로고와 사용 가이드를 모았습니다.
+**mega**는 Codeblack-Inc의 오픈소스 제품을 묶는 브랜드입니다. 네 개의 둥근 조각이 열린 중심을 공유하는 심벌로, 서로 다른 프로젝트가 함께 확장되는 모습을 표현합니다. 이 저장소에는 `mega`, `mega-ui`, `mega-ppt`, `mega-diagram`, `mega-hwp`, `mega-slide`의 로고와 사용 가이드를 모았습니다.
 
-**[mega 브랜드 사이트 보기 →](https://codeblack-inc.github.io/mega-bi/)** · [mega-ui](https://mega-ui-two.vercel.app/) · [mega-ppt](https://codeblack-inc.github.io/mega-ppt/) · [mega-diagram](https://github.com/Codeblack-Inc/mega-diagram) · [mega-hwp](https://codeblack-inc.github.io/mega-hwp/)
+**[mega 브랜드 사이트 보기 →](https://codeblack-inc.github.io/mega-bi/)** · [mega-ui](https://mega-ui-two.vercel.app/) · [mega-ppt](https://codeblack-inc.github.io/mega-ppt/) · [mega-diagram](https://github.com/Codeblack-Inc/mega-diagram) · [mega-hwp](https://codeblack-inc.github.io/mega-hwp/) · [mega-slide](https://github.com/Codeblack-Inc/mega-slide)
 
 ## 바로 사용하기
 
@@ -19,6 +19,7 @@
 | `mega-ppt` 로고 | [SVG](assets/svg/mega-ppt.svg) · [PNG](assets/png/mega-ppt.png) |
 | `mega-diagram` 로고 | [SVG](assets/svg/mega-diagram.svg) · [PNG](assets/png/mega-diagram.png) |
 | `mega-hwp` 로고 | [SVG](assets/svg/mega-hwp.svg) · [PNG](assets/png/mega-hwp.png) |
+| `mega-slide` 로고 | [SVG](assets/svg/mega-slide.svg) · [PNG](assets/png/mega-slide.png) |
 
 웹과 문서에서는 크기에 관계없이 선명한 **SVG를 우선** 사용하세요. SVG를 지원하지 않는 환경에는 PNG를 사용하면 됩니다. 흰색 로고 파일은 투명 배경이므로 어두운 영역 위에 배치해야 합니다.
 
@@ -33,6 +34,7 @@
 - **mega-ppt**: 프레젠테이션을 위한 제품명
 - **mega-diagram**: 문서용 다이어그램을 위한 제품명 (44가지 형식 + 한국 보고서 도식 30종)
 - **mega-hwp**: 한글(HWP) 문서와 정부과제 양식을 위한 제품명
+- **mega-slide**: 발표자료(PPT)를 만드는 스킬을 위한 제품명 (개발 중)
 
 제품명은 항상 **소문자 + 하이픈**으로 표기합니다. 새 제품을 추가할 때는 심벌과 `mega` 워드마크를 유지하고, 접미사에 제품 색을 적용합니다. 접미사는 [Space Grotesk](https://github.com/floriankarsten/space-grotesk)로 윤곽선을 만들며, 기존 로고와 같은 크기·굵기로 맞춘 스크립트가 있습니다.
 
@@ -59,6 +61,7 @@ uv run scripts/build-product-logo.py <제품명> "<제품 색>" SpaceGrotesk.ttf
 | Coral | `#F37055` | `mega-ppt` 강조 |
 | Blue | `#2F6FDB` | `mega-diagram` 강조 |
 | Green | `#1E9E6A` | `mega-hwp` 강조 |
+| Amber | `#D98A00` | `mega-slide` 강조 |
 | Paper | `#F6F5FA` | 밝은 보조 배경 |
 | Lilac | `#E8E3FA` | 연한 강조 배경 |
 | Muted | `#68657B` | 보조 텍스트 |

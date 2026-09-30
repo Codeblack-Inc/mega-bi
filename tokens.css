@@ -4,6 +4,7 @@
   --mega-coral: #F37055;
   --mega-blue: #2F6FDB;
   --mega-green: #1E9E6A;
+  --mega-amber: #D98A00;
   --mega-paper: #F6F5FA;
   --mega-lilac: #E8E3FA;
   --mega-muted: #68657B;
@@ -12,4 +13,5 @@
   --mega-ppt: var(--mega-coral);
   --mega-diagram: var(--mega-blue);
   --mega-hwp: var(--mega-green);
+  --mega-slide: var(--mega-amber);
 }
