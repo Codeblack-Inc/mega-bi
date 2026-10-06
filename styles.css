@@ -63,6 +63,9 @@ img { display: block; max-width: 100%; }
 .slide-visual { background: #faedcf; }
 .diagram-visual svg, .hwp-visual svg, .slide-visual svg { width: 100%; max-width: 480px; height: auto; font: 600 13px var(--font-body); fill: #17152b; }
 .hwp-visual .mark, .slide-visual .mark { font-weight: 500; font-size: 10px; fill: #68657b; }
+.slide-visual .p1, .slide-visual .p2 { font-size: 30px; letter-spacing: -.04em; fill: #4a4760; }
+.slide-visual .p1 { font-weight: 700; }
+.slide-visual .p2 { font-weight: 400; fill: #8a869e; }
 .card-copy { padding: 33px 36px 25px; }
 .card-topline { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 31px; color: var(--mega-muted); font: 700 11px/1.4 var(--font-display); letter-spacing: .09em; }
 .product-logo { height: 57px; width: auto; max-width: min(100%, 300px); }
